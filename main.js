@@ -15,12 +15,19 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
+<script type="text/javascript"
+var num=12;
+document.write(Output : ' + num.tostring"(2));
+></script>
+
 
 
 
 // Write a JavaScript program to convert a string to the number.
-
-
+<script type="text/javascript"
+var num=12;
+document.write(Output : ' + num.tostring"(2));
+></script>
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
@@ -29,23 +36,57 @@ const displayDate = () => {
   // * Number
   // * NaN
   // * String
-  
+  var a = 'boolean';
+  var b = 'null';
+  var c = 'Undefined';
+  var d = 'number';
+  var e = 'NaN';
+  var f = 'string';
+
+
+
+
+// Write a JavaScript program to convert a string to the number.
+var num1 =42;
+var num2 ='42';
+if (num1 === num2) {
+  console.log(true); 
+} else {
+  console.log(false);
+}
 
   
 // Write a JavaScript program that adds 2 numbers together.
+const num1 = 5;
+const num2 = 3;
 
+// add two numbers
+const sum = num1 + num2;
 
+// display the sum
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 
+outcome;
 // Write a JavaScript program that runs only when 2 things are true.
-
-
-
+if ("cat" === "dog") {
+  var outcome = "if block";
+} else {
+  var outcome = "else block";
+}
 // Write a JavaScript program that runs when 1 of 2 things are true.
-
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
 
 
 // Write a JavaScript program that runs when both things are not true.  
+if (false) {
+  var outcome = "if block";
+} else if (false) {
+  var outcome = "else if block";
+}
 
+outcome;
 // ***************************
 //         PART TWO
 // ***************************
